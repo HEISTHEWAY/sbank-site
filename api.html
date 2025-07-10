@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Documentação API | S BANK</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #f5f5f5;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 60px;
+    }
+    h1 {
+      color: gold;
+      font-size: 36px;
+    }
+    h2 {
+      color: #ffd700;
+      margin-top: 40px;
+    }
+    code {
+      background-color: #222;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    pre {
+      background-color: #111;
+      padding: 16px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Documentação da API – S BANK</h1>
+  <p>Essa página oferece uma visão geral das principais rotas e autenticação da API da plataforma.</p>
+
+  <h2>Autenticação</h2>
+  <p>Use o header <code>Authorization: Bearer &lt;seu_token&gt;</code> em todas as requisições protegidas.</p>
+
+  <h2>Exemplo de requisição Pix</h2>
+  <pre><code>POST /api/v1/pix/enviar
+{
+  "cpf": "00000000191",
+  "valor": "10.00",
+  "descricao": "Pagamento teste"
+}
+</code></pre>
+
+  <h2>Outros endpoints</h2>
+  <ul>
+    <li><code>GET /api/v1/conta/saldo</code> – Consultar saldo</li>
+    <li><code>GET /api/v1/conta/extrato</code> – Extrato de movimentações</li>
+    <li><code>POST /api/v1/cartao/emitir</code> – Emitir cartão virtual</li>
+  </ul>
+
+  <p>Para acesso completo à documentação, entre em contato com <code>dev@sbank.io</code>.</p>
+</body>
+</html>
