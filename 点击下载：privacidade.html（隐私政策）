@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Política de Privacidade | S BANK</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #f5f5f5;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 40px;
+    }
+    h1 {
+      color: gold;
+    }
+    a {
+      color: gold;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Política de Privacidade</h1>
+  <p>A S BANK valoriza sua privacidade. Todas as informações coletadas são usadas exclusivamente para fins de operação da plataforma e melhoria da experiência dos nossos usuários.</p>
+  <p>Coletamos dados como nome, CPF/CNPJ, email e transações financeiras apenas quando necessário para cumprir exigências legais ou operacionais.</p>
+  <p>Seus dados não serão compartilhados com terceiros sem seu consentimento, salvo exigência legal.</p>
+  <p>Para mais informações, entre em contato: <a href="mailto:suporte@sbank.io">suporte@sbank.io</a></p>
+</body>
+</html>
